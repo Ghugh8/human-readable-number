@@ -1,8 +1,8 @@
 module.exports = function toReadable (number) {
     const digit = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
     const teen = ['eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-    const ty = ['ten', 'twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-    const hundr = ['one hundred', 'two hundreds', 'three hundreds', 'four hundreds', 'five hundreds', 'six hundreds', 'seven hundreds', 'eight hundreds', 'nine hundreds'];
+    const ty = ['ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+    const hundr = ['one hundred', 'two hundred', 'three hundred', 'four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
     const arr = Array.from('' + number, Number);
     console.log(arr)
   
