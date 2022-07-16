@@ -4,7 +4,7 @@ module.exports = function toReadable (number) {
     const ty = ['ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
     const hundr = ['one hundred', 'two hundred', 'three hundred', 'four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
     const array = Array.from(String(number), Number);
-    let arr = (String(number).length === 3) ? array : array.unshift(0);
+    let arr = (String(number).length === 3) ? array : (String(number).length === 2) ? array.unshift(0): array.unshift(0, 0);
     console.log(array, arr)
   
     let a = array[0];
