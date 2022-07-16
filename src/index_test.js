@@ -40,4 +40,4 @@ function toReadable (number) {
                           return hundr[a-1] + ' ' + ty[b-1] + ' ' + digit[c-1];}
 }
 
-console.log(toReadable (19))
+console.log(toReadable (15))
